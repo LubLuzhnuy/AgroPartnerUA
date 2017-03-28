@@ -1,0 +1,165 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900,900italic,700italic,700,500italic,500,400italic,300italic,300,100,100italic&subset=latin,cyrillic,cyrillic-ext,greek,latin-ext,greek-ext,vietnamese);
+body{
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.row{
+    margin: 0;
+    padding: 0;
+}
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
+/*Початок хідера*/
+header{
+    background-color: #2bba13;
+    height: 100px;
+    z-index:2;
+}
+header>div{
+<<<<<<< Updated upstream
+    margin: auto;
+}
+header img{
+    height: 80px;
+=======
+    padding-left: 10%;
+    
+}
+header img{
+    width: 90%;
+    height: 50px;
+    margin-top: 25px;
+>>>>>>> Stashed changes
+    
+}
+/*кінець хідера*/
+/*Секція з бекграундом*/
+#backgroundsection{
+    background-image: url(Images/background.jpg);
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 800px;
+}
+#comersialdiv{
+    margin-top: 15%;
+    text-align: center;
+    color:#147e14;
+}
+#comersialdiv p{
+    margin-top: 15%;
+}
+.btn-success{
+    width: 60%;
+    background-color: #2bba13;
+    font-size: 200%;
+    box-sizing: border-box;
+}
+#sectionof3img{
+    height: 800px;
+    margin-top: 10%;
+    background: ;
+    padding: 0;
+}
+#imgdiv{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#textdiv{
+    text-align: center;
+    padding-top: 100px;
+   
+}
+#circle{
+    width: 140px;
+    height: 140px;
+    border: none
+        ;
+    border-radius: 100%;
+    margin: auto;
+    font-size:600%;
+    color:#2bba13;
+    padding-top:5%;
+}
+#textdiv h2{
+    color:#2bba13;
+    margin-top: 25px;
+    font-size: 250%;
+    font-weight: bold;
+    
+}
+#textdiv p{
+    margin-top: 25px;
+    color:#2bba13;
+    font-weight: bold;
+    font-size:125% ;
+}
+#divofsecondimg{
+    margin-top: 10%;
+    margin-bottom:10%;
+}
+#sectionofbackground2{
+    height: 700px;
+    margin: 0;
+    padding: 0;
+    background-image: url(Images/background2.jpg);
+    background-repeat: no-repeat;
+    background-clip:padding-box;
+    background-size: 100% 100%;
+    margin-top: 1700px;
+    width: 100%;
+}
+#sectionofbackground2 p{
+    color:#147e14;
+    font-size:200%;
+}
+.comercialdiv2{
+    margin-top: 20%;
+}
+#pronas{
+    text-align: center;
+}
+#pronas img{
+    width: 220px;
+    height: 220px;
+    margin-top: 5%;
+    color:#2bba13;
+    margin-bottom: 5%;
+}
+#pronas h2{
+    margin-top: 5%;
+    
+    font-size:220%;
+    color:#2bba13;
+}
+#pronas p{
+    float: right;
+    margin-top: 5%;
+    font-size:120%;
+    color:#2bba13;
+}
+footer{
+    height: 100px;
+    background-color: #2bba13;
+    text-align: center;
+    z-index: 2;
+}
+footer h3{
+    color: white;
+    font-size:150%;
+    
+}
+@media (max-width:990px){
+    #pronas {
+        text-align: center;
+    }
+    #sectionofbackground2{
+        margin-top: 1800px;
+    }
+}
